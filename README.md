@@ -1,9 +1,5 @@
-# Django Insta Frontend
-Instagram clone frontend 
+# Awwwards Frontend
+Awwwards IP frontend 
 
-## Designs
-Here is the Design
-![Design](./images/Home.png)
-![Modal](./images/Profile.png)
-![Modal](./images/Signup.png)
-![Modal](./images/Login.png)
+## Motivation
+[www.awwwards.com/](https://www.awwwards.com/)
