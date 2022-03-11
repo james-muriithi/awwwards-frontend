@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Nunito:wght@400;500;700&family=Oleo+Script+Swash+Caps&display=swap");
+@font-face {
+    font-family: "apercu";
+    src: url("/fonts/apercu-light-pro.woff2") format("woff2");
+    font-weight: lighter;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("/fonts/apercu-regular-pro.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("/fonts/apercu-medium-pro.woff2") format("woff2");
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("/fonts/apercu-bold-pro.woff2") format("woff2");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "apercu";
+    src: url("/fonts/apercu-black-pro.woff2") format("woff2");
+    font-weight: bolder;
+    font-style: normal;
+}
+
+$font-family-base: "apercu",
+"Nunito",
+cursive;
+$black: #000;
+$white: #fff;
+$gray: #a6abab;
+$light: $white;
+$background-color: #f4f7f6;
+$nav-item-color: #101730;
+$primary: #49c5b6;
+$secondary: #202121;
+$warning: #ECD06F;
+$danger: #fa4d4d;
+$blue: #8574ef;
+$success: #9fd2d6;
+$default: $gray;
+$body-background: $background-color;
+$body-bg: $background-color;
+$spacer: 1rem;
+// $font-size-base: $spacer * 0.875;
+// bootstrap variables and function
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+$theme-colors: ( 
+    "primary": $primary,
+    "secondary": $secondary,
+    "success": $success,
+    "info": $info,
+    "warning": $warning,
+    "danger": $danger,
+    "light": $light,
+    "dark": $dark,
+    "blue": $blue,
+);
