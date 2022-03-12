@@ -7,10 +7,245 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
-    <title>Insta - John Doe</title>
+    <title>Awwwards - single post</title>
 </head>
 
 <body>
+    <div class="position-relative h-100">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent w-100 position-absolute">
+            <div class="container-fluid w-100">
+                <a class="navbar-brand fs-3 fw-bold" href="index.html">
+                    AWWWARDS.
+                </a>
+                <div class="d-flex ms-auto align-items-center pe-0">
+                    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse bg-transparent" id="navbarSupportedContent">
+                    <ul class="navbar-nav mt-4 mt-lg-0 text-white ms-auto">
+                        <li class="nav-item ps-lg-4 pe-4 ps-2 mb-4 mb-lg-0 d-flex align-items-center">
+                            <span class="position-relative search">
+                                <span
+                                    class="material-icons ps-1 text-primary position-absolute search-icon">search</span>
+                                <input type="text" class="border border-primary form-control rounded text-primary"
+                                    placeholder="Search here..">
+                            </span>
+                        </li>
+                        <li class="nav-item px-2 pt-lg-1">
+                            <a class="nav-link fw-medium text-uppercase" href="./login.html">
+                                Login / Register
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-white text-uppercase fw-light px-4 py-2  d-inline-flex center btn btn-secondary rounded-0"
+                                href="#">
+                                Submit your site
+                            </a>
+                        </li>
+                        <li class="nav-item px-2 mb-3 mb-lg-0 d-none">
+
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <img src="https://ui-avatars.com/api/?name=James+Muriithi&background=49c5b6&color=fff"
+                                    alt="" class="avatar rounded-circle img-30">
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end bg-primary" aria-labelledby="navbarDropdown"
+                                data-bs-popper="none">
+                                <a class="dropdown-item bg-primary text-white" href="./profile.html">Profile</a>
+                                <a class="dropdown-item bg-primary text-white d-flex align-item-center"
+                                    href="index.html">
+                                    Logout
+                                    <span class="material-icons fs-4 text-white ps-2">logout</span>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+
+        <section class="py-5">
+            <div class="row justify-content-center pt-5">
+                <div class="col-md-8">
+                    <div>
+                        <img src="https://assets.awwwards.com/awards/submissions/2022/03/62208c6c988bd647344586.jpg"
+                            alt="" class="img-fluid">
+                    </div>
+                    <div class="bg-white pb-4">
+                        <button class="w-100 btn btn-primary rounded-0 text-white py-3 text-uppercase">
+                            Submit Vote
+                        </button>
+                        <div class="px-2">
+                            <h5 class="fw-bold pt-5">
+                                How to design a product that can grow itself 10x in year
+                            </h5>
+                            <p class="text-muted mb-1 text-sm">
+                                By <span class="fw-bold text-primary">Jane Doe</span> . <span class="ps-3">Jun
+                                    28,2021</span>
+                            </p>
+                            <div class="description pt-2">
+                                <p class="text-muted text-start">
+                                    Male sixth sea it a. Brought was signs female darkness signs form cattle land grass
+                                    whose
+                                    from subdue also they're their brought seas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rating-group d-flex mt-4 text-center">
+                        <div class="rating">
+                            <div class="rating-circle border border-3 border-primary rounded-circle center mx-2">
+                                7.9
+                            </div>
+                            Design
+                        </div>
+                        <div class="rating">
+                            <div class="rating-circle border border-3 border-warning rounded-circle center mx-2">
+                                7.9
+                            </div>
+                            Usability
+                        </div>
+                        <div class="rating">
+                            <div class="rating-circle border border-3 border-blue rounded-circle center mx-2">
+                                7.9
+                            </div>
+                            Creativity
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-8 mt-4 py-4 bg-white px-0 overflow-hidden">
+                    <div class="">
+                        <div class="pb-2 px-3">
+                            <p class="text-uppercase">User votes</p>
+                        </div>
+                        <hr class="my-0">
+                        <div class="votes">
+                            <div class="user-vote row border-bottom p-2 pe-3">
+                                <div class="col d-flex align-items-center">
+                                    <img src="https://ui-avatars.com/api/?name=James+Muriithi&background=49c5b6&color=fff"
+                                        alt="" class="img-40 rounded-circle">
+                                    <span class="ps-2">Jane Doe</span>
+                                </div>
+                                <div class="col  d-flex align-items-center">
+                                    <div class="rating-group d-none d-md-flex ms-auto ">
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-primary rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-warning rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-blue rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="average-vote fs-3 ms-auto ms-md-3">
+                                        9.2
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="user-vote row border-bottom p-2 pe-3">
+                                <div class="col d-flex align-items-center">
+                                    <img src="https://ui-avatars.com/api/?name=James+Muriithi&background=49c5b6&color=fff"
+                                        alt="" class="img-40 rounded-circle">
+                                    <span class="ps-2">Jane Doe</span>
+                                </div>
+                                <div class="col  d-flex align-items-center">
+                                    <div class="rating-group d-none d-md-flex ms-auto ">
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-primary rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-warning rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-blue rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="average-vote fs-3 ms-auto ms-md-3">
+                                        9.2
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="user-vote row border-bottom p-2 pe-3">
+                                <div class="col d-flex align-items-center">
+                                    <img src="https://ui-avatars.com/api/?name=James+Muriithi&background=49c5b6&color=fff"
+                                        alt="" class="img-40 rounded-circle">
+                                    <span class="ps-2">Jane Doe</span>
+                                </div>
+                                <div class="col  d-flex align-items-center">
+                                    <div class="rating-group d-none d-md-flex ms-auto ">
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-primary rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-warning rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                        <div class="rating">
+                                            <div
+                                                class="rating-circle img-50 border border-3 border-blue rounded-circle center mx-2">
+                                                7.9
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="average-vote fs-3 ms-auto ms-md-3">
+                                        9.2
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer -->
+        <footer class="border-1 border-top border-default pt-4 pb-2">
+            <div class="row container-fluid">
+                <div class="col d-flex">
+                    <a href="#" class="nav-item text-dark fw-normal pe-3">Contact Us</a>
+                    <a href="#" class="nav-item text-dark fw-normal pe-3">F.A.Q</a>
+                    <a href="#" class="nav-item text-dark fw-normal pe-3">Cookies Policy</a>
+                    <a href="#" class="nav-item text-dark fw-normal pe-3">Legal Terms</a>
+                </div>
+                <div class="col-sm-3 col-12 text-end">
+                    <a href="" class="">James Muriithi</a>
+                </div>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
